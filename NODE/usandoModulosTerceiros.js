@@ -1,0 +1,2 @@
+const _ = require('lodash') // POR PADRÃO ELE PROCURA O ARQUIVO index.js (DENTRO DE node.modules) PARA EXECUTAR!
+setInterval(() => console.log(_.random(1, 10)), 2000) // GERA NÚMEROS ALEATORIAMENTE (ENTRE 1 E 1000) A CADA 2 SEGUNDOS (2000)
