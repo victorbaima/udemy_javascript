@@ -12,7 +12,7 @@ axios.get(url).then(response => {
 // MULHER CHINESA COM O MENOR SALÁRIO?
 
 // MINHA SOLUÇÃO:
-
+/*
 function buscar() {
     let novaLista = []                      // O RESULTADO FOI INCORRETO!!!
     let menorSalario = {}
@@ -32,7 +32,7 @@ function buscar() {
 }
 
 buscar()
-
+*/
 // SOLUÇÃO DO PROFESSOR:
 
 const chineses = f => f.pais === 'China'
