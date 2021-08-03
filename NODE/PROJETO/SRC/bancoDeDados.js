@@ -19,4 +19,10 @@ function getProdutos() {
     return Object.values(produtos)
 }
 
-module.exports = { salvarProduto, getProduto, getProdutos } // TORNA AS 3 FUNÇÕES VISÍVEIS FORA DO ARQUIVO!
+function excluirProduto(id) {
+    const produto = produtos[id]
+    delete produtos[id]
+    return produto
+}
+
+module.exports = { salvarProduto, getProduto, getProdutos, excluirProduto } // TORNA AS 3 FUNÇÕES VISÍVEIS FORA DO ARQUIVO!
